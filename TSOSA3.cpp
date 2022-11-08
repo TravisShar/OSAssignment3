@@ -25,15 +25,6 @@ void *burger_producer(void *param);
 int main(int argc, char *argv[]) 
 {
     
-    // check for proper usage
-    /*if (argc != 2) 
-    {
-        fprintf(stderr, "usage: ./hw3 num_burgers\n");
-        exit(1);
-    }*/
-
-    // get number of burgers from command line
-    //num_burgers = atoi(argv[1]);
     printf("How Many Cheeseburgers? ");
     scanf("%i", &num_burgers);
     
